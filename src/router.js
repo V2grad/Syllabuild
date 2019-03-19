@@ -5,11 +5,10 @@ import MainLayout from '@/layouts/main'
 import InitLayout from '@/layouts/init'
 
 import HomeRouter from '@/modules/home/router'
-import ActionRouter from '@/modules/action/router'
+import EventRouter from '@/modules/event/router'
 import ExportRouter from '@/modules/export/router'
 import ImportRouter from '@/modules/import/router'
 import PlanRouter from '@/modules/plan/router'
-import CourseRouter from '@/modules/course/router'
 import ProfileRouter from '@/modules/profile/router'
 import UpgradeRouter from '@/modules/upgrade/router'
 
@@ -41,11 +40,10 @@ export default new Router({
       path: '',
       component: MainLayout,
       children: [
-        ...ActionRouter,
+        ...EventRouter,
         ...ExportRouter,
         ...ImportRouter,
         ...PlanRouter,
-        ...CourseRouter,
         ...ProfileRouter,
       ]
     },

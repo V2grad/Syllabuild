@@ -7,7 +7,7 @@
     class="nav-padding">
     <b-navbar-toggle target="nav_collapse"/>
 
-    <b-navbar-brand :to="{'name': 'Home'}">Organizer</b-navbar-brand>
+    <b-navbar-brand :to="{'name': 'Home'}">Syllabuild</b-navbar-brand>
 
     <b-collapse
       id="nav_collapse"
@@ -18,17 +18,20 @@
           <b-dropdown-item
             :to="{'name': 'Plan'}"
             exact>Your Plan</b-dropdown-item>
-          <b-dropdown-item
+          <!-- <b-dropdown-item
             :to="{'name': 'TransferredCourse'}"
-            exact>Transferred/AP</b-dropdown-item>
+            exact>Transferred/AP</b-dropdown-item> -->
         </b-nav-item-dropdown>
-        <b-nav-item-dropdown text="Course">
+        <b-nav-item-dropdown text="Event">
           <b-dropdown-item
-            :to="{'name': 'CourseSelect'}"
+            :to="{'name': 'PublicEvents'}"
             exact>Courses</b-dropdown-item>
           <b-dropdown-item
-            :to="{'name': 'CustomCourse'}"
+            :to="{'name': 'UserEvents'}"
             exact>Custom Courses</b-dropdown-item>
+            <b-dropdown-item
+            :to="{'name': 'NewEvent'}"
+            exact>New Event</b-dropdown-item>
         </b-nav-item-dropdown>
         <b-nav-item :to="{'name': 'Actions'}">Actions</b-nav-item>
         <b-nav-item :to="{'name': 'ExportPlan'}">Export</b-nav-item>
@@ -43,6 +46,11 @@
             Current Plan: {{ planName }}
           </b-dropdown-item>
           <br>
+          <b-dropdown-item
+            :to="{'name': 'Login'}"
+            exact>
+            Login
+          </b-dropdown-item>
           <b-dropdown-item
             :to="{'name': 'Home'}"
             exact>

@@ -1,5 +1,3 @@
-export default {}
-
 // https://gist.github.com/gordonbrander/2230317
 // Generate unique IDs for use as pseudo-private/protected names.
 // Similar in concept to
@@ -18,7 +16,7 @@ export default {}
 //     var privateName = ID();
 //     var o = { 'public': 'foo' };
 //     o[privateName] = 'bar';
-export function id () {
+export default function id () {
   // Math.random should be unique because of its seeding algorithm.
   // Convert it to base 36 (numbers + letters), and grab the first 9 characters
   // after the decimal.

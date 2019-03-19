@@ -775,6 +775,13 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.2.tgz#54c5a964462be3d4d78af631363c18d6fa91ac26"
   integrity sha512-yprFYuno9FtNsSHVlSWd+nRlmGoAbqbeCwOryP6sC/zoCjhpArcRMYp19EvpSUSizJAlsXEwJv+wcWS9XaXdMw==
 
+"@tinymce/tinymce-vue@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@tinymce/tinymce-vue/-/tinymce-vue-2.0.0.tgz#41cea256f67f195ac52f71b1cc0bcbda850c86f0"
+  integrity sha512-oUl8r1WvoLsy1NxpFMPNa8hZohkha6biNGLBAhtWUEIsqnmAhvosTPdVj2uroAlK7rjOcDTOy2jIkuNOsLuvtA==
+  dependencies:
+    vue "^2.5.17"
+
 "@vue/babel-preset-app@^3.0.5":
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/@vue/babel-preset-app/-/babel-preset-app-3.0.5.tgz#7aa4a6a592ddf04a06a3cf2091252395acf4c033"
