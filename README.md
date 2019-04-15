@@ -15,8 +15,14 @@ Online Demo for Master Branch: https://syb.v2grad.org
 
 **We LOVE feedback: open an [issue](../../issues) when you encounter a problem or confusion when using Syllabuild.**
 
-## Screenshots
+## data structure
 
+https://github.com/V2grad/Syllabuild/wiki/data-structure
+
+Please reference to [wiki](../../wiki) for more information
+
+
+## Screenshots
 
 @TODO
 
