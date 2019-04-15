@@ -24,7 +24,11 @@ Please reference to [wiki](../../wiki) for more information
 
 ## Screenshots
 
-@TODO
+### Home page
+
+![](https://drive.google.com/drive/my-drive)
+
+### Semester adding
 
 ## Features
 
