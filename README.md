@@ -26,9 +26,11 @@ Please reference to [wiki](../../wiki) for more information
 
 ### Home page
 
-![](https://drive.google.com/drive/my-drive)
+![](https://user-images.githubusercontent.com/39765452/56156555-7f290b80-5f8b-11e9-83aa-18763e7b8fc0.jpg)
 
 ### Semester adding
+![](https://user-images.githubusercontent.com/39765452/56156561-82bc9280-5f8b-11e9-8154-303978914a6f.jpg)
+![](https://user-images.githubusercontent.com/39765452/56156581-88b27380-5f8b-11e9-8b10-e337a424f30d.jpg)
 
 ## Features
 
